@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+.container2{
+    max-width: 1600px;
+}
+.buttons2{
+    margin-top: 20px;
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button2
+ {
+    border: 1px solid #c6c6c6;
+    line-height: 180px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+.pavadinimas1{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    background: whitesmoke;
+    height: 120px;
+    margin-top: 10px;
+}
+
+.btn1{
+    width: 100px;
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: #e7e3e38a;
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 18px;
+}
+.fotke{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 36%;
+}
+img{
+    height: 300px;
+}
+
+.button2:hover {
+    background-color: #c6c7c5;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
